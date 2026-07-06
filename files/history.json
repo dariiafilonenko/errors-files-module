@@ -2,5 +2,16 @@
   {"client_id": 101, "total_spent": 5400, "status": "active"},
   {"client_id": 102, "total_spent": 200, "status": "inactive"},
   {"client_id": 103, "total_spent": "ERROR", "status": "active"},
-  {"client_id": 105, "total_spent": 1000, "status": "active"}
+  {"client_id": 104, "total_spent": 8900.50, "status": "active"},
+  {"client_id": 105, "total_spent": 1000, "status": "active"},
+  {"client_id": 106, "total_spent": "N/A", "status": "inactive"},
+  {"client_id": 107, "total_spent": 450.75, "status": "active"},
+  {"client_id": 108, "total_spent": 0, "status": "inactive"},
+  {"client_id": 109, "total_spent": 12500, "status": "active"},
+  {"client_id": 110, "total_spent": "NULL", "status": "active"},
+  {"client_id": 111, "total_spent": 300, "status": "inactive"},
+  {"client_id": 112, "total_spent": 15000, "status": "active"},
+  {"client_id": 113, "total_spent": "-", "status": "inactive"},
+  {"client_id": 114, "total_spent": 50, "status": "active"},
+  {"client_id": 115, "total_spent": 2750.25, "status": "active"}
 ]
