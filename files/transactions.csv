@@ -1,0 +1,7 @@
+id,amount,category,status
+1,1500,Groceries,success
+2,-,Rent,failed
+3,200.50,Entertainment,success
+4,N/A,Transport,success
+5,3000,Salary,success
+6,ERROR,Refund,failed

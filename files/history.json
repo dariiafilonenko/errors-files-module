@@ -1,0 +1,6 @@
+[
+  {"client_id": 101, "total_spent": 5400, "status": "active"},
+  {"client_id": 102, "total_spent": 200, "status": "inactive"},
+  {"client_id": 103, "total_spent": "ERROR", "status": "active"},
+  {"client_id": 105, "total_spent": 1000, "status": "active"}
+]
