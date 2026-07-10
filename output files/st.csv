@@ -1,0 +1,16 @@
+id,amount,category,status
+1,1500,Groceries,success
+3,200.50,Entertainment,success
+5,3000,Salary,success
+7,450.75,Groceries,success
+8,100,Utilities,success
+10,800.20,Entertainment,success
+12,50,Groceries,success
+13,2500,Salary,success
+15,350.50,Entertainment,success
+17,1200,Rent,success
+18,5.99,Transport,success
+20,950,Salary,success
+21,15.50,Entertainment,success
+23,2200,Rent,success
+25,400.10,Groceries,success
