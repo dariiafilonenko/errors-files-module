@@ -17,14 +17,21 @@ import json
 #     writer = csv.DictWriter(file, fieldnames=["id", "amount", "category", "status"])
 #     writer.writeheader() # Обов'язково записуємо заголовки колонок
 #     writer.writerows(succ)
-
+failed = []
 with open("files/transactions.csv", "r", encoding="utf=8") as file:
      reader = csv.DictReader(file)
      for row in reader:
-         try:
-             succ =float(row["amount"])
-         except ValueError:
-             
+         if row["status"] == "failed":
+             failed.append(row)
+with open("output files/failed_transactions.csv", "w", encoding="utf-8", newline="") as file:
+    writer = csv.DictWriter(file, fieldnames=["id", "amount", "category", "status"])
+    writer.writeheader()
+    writer.writerows(failed)
+
+
+
+
+
 
 
 
