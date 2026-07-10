@@ -30,16 +30,23 @@ import json
 
 
 
+# with open("files/users.json", "r", encoding="utf-8") as file:
+#     data = json.load(file)
+#     for user in data:
+#         if user["balance"] >= 1000:
+#             user["status"] = "VIP"
+#         else:
+#             user["status"] = "Regular"
+# with open("output files/new_users.json", "w", encoding="utf-8") as file:
+#     json.dump(data, file, indent=4)
+#     print(data)
+
 with open("files/users.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
-    for user in data:
-        if user["balance"] >= 1000:
-            user["status"] = "VIP"
-        else:
-            user["status"] = "Regular"
-with open("output files/new_users.json", "w", encoding="utf-8") as file:
+     data = json.load(file)
+     for user in data:
+         user["balance"] += 50
+with open("output files/new_updated_users.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4)
-    print(data)
 
 
 
